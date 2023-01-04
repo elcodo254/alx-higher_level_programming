@@ -4,4 +4,5 @@
 3-print_number.py: Completed source code to print integer + string
 4-print_float.py: Complete source code to print float stored with a precision  of 2 digits.
 5-print_string.py: complete source code to print 3 times a string stored in a variable followed by its first 9 characters
-6-concat.py: print a string as is
+6-concat.py: complete source code to print a string by concatenating two variables
+7-edges.py: complete source code parts of a string in a variable
