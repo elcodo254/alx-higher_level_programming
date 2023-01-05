@@ -8,4 +8,4 @@ def fizzbuzz():
         elif key % 3 == 0:
             print("Fizz ", end="")
         else:
-            print(f"{key:d"}, end="")
+            print(f"{key:d}", end="")
