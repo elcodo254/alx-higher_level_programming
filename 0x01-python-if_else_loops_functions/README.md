@@ -4,3 +4,4 @@
 3-print_alphabt.py: prints ascii alphabet without q and e
 4-print_hexa.py: Prints numbers in decimal and hexadecimal
 5-print_comb2.py: prints numbers from 0 to 99
+6-print_comb3.py:prints all possible combinations of two number
