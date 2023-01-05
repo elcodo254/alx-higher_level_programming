@@ -2,10 +2,10 @@
 def fizzbuzz():
     for key in range(1, 101):
         if key % 5 == 0 and key % 3 == 0:
-            print("FizzBuzz ", end="")
+            print("FizzBuzz", " ", end="")
         elif key % 5 == 0:
-            print("Buzz ", end="")
+            print("Buzz", " ", end="")
         elif key % 3 == 0:
-            print("Fizz ", end="")
+            print("Fizz", " ", end="")
         else:
             print(f"{key:d}", end="")
