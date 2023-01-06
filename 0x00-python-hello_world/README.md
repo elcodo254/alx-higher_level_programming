@@ -7,3 +7,4 @@
 6-concat.py: complete source code to print a string by concatenating two variables
 7-edges.py: complete source code parts of a string in a variable
 8-concat_edges.py: completes source code to print a string as is
+9-easter_egg.py: prints "the zen of python"
