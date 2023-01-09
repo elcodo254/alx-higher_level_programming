@@ -6,3 +6,5 @@
 5-no_c.py: remove all c and C from a string
 6-print_matrix_integer.py: prints a matrix of integers
 7-add_tuple.py: function that adds two tuples
+8-multiple_returns.py: returns a tuple with the length of a string and its first character
+9-max_integer.py: finds the buggest integer of a list
