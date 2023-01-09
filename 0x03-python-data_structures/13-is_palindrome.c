@@ -24,7 +24,7 @@ int palindrome(listint_t **left, listint_t *right)
  * @head: list
  * Return: 0 if not, 1 if is
  */
-int is_palindrome(listint_t **head);
+int is_palindrome(listint_t **head)
 {
 	if (!(*head) || !head)
 		return (1);
