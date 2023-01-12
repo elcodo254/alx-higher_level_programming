@@ -4,3 +4,4 @@
 3-infinite_add.py: prints the results of addition of all arguments
 4-hidden_discovery.py: prints all the names defined by the compiled module provided
 5-variable_load.py: imports variable from a file and prints its value
+100-my_calculator.py: calculator handling basic calculations
