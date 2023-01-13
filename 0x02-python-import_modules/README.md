@@ -5,3 +5,5 @@
 4-hidden_discovery.py: prints all the names defined by the compiled module provided
 5-variable_load.py: imports variable from a file and prints its value
 100-my_calculator.py: calculator handling basic calculations
+101-easy_print.py: print python using write
+102-magic_calculation.py: python bytecode
