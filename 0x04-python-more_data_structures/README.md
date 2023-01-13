@@ -5,3 +5,4 @@
 4-only_diff_elements.py: returns set of all elements present in only one set
 5-number_keys.py: function that returns the number of keys in a dictionary
 6-print_sorted_dictionary.py: prints dictionary by ordered keys
+7-update_dictionary.py: replaces and adds key/value in a dictionary
