@@ -7,3 +7,4 @@
 6-print_sorted_dictionary.py: prints dictionary by ordered keys
 7-update_dictionary.py: replaces and adds key/value in a dictionary
 8-simple_delete.py: deletes a key in dictionary
+9-multiply_by_2.py: function that returns a new dictionary with all values multiplied by 2
