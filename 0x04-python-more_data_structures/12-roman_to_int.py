@@ -8,7 +8,7 @@ def roman_to_int(roman_string):
 
     for n in range(len(roman_string) - 1, -1, -1):
         if roman[roman_string[n]] >= maxi:
-                num += roman[roman_string[n]]
+            num += roman[roman_string[n]]
         else:
             num -= roman[roman_string[n]]
 
