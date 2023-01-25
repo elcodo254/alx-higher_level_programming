@@ -4,3 +4,4 @@
 3-square.py: add public instance method to class Square
 4-square.py: use property getter and setter to class Square
 5-square.py: add public instance method
+6-square.py: add private instance attribute
