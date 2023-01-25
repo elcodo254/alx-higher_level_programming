@@ -3,3 +3,4 @@
 2-square.py:Class that defines a square with private attribute size and exceptions handled
 3-square.py: add public instance method to class Square
 4-square.py: use property getter and setter to class Square
+5-square.py: add public instance method
