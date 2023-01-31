@@ -66,6 +66,8 @@ class Rectangle:
         Args:
             rect_1 (Rectangle): First rectangle
             rect_2 (Rectangle): Second rectangle
+        Raise:
+            TypeError: If either rect_1 or rect_2 is not Rectangle
         """
 
     if not isinstance(rec_1, Rectangle):
