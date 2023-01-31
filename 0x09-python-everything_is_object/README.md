@@ -7,3 +7,4 @@
 6-answer.txt:s1="Best School", s2=s1 print(s1 == s2)
 7-answer.txt:s1="Best", s2=s1 print(s1 is s2)
 8-answer.txt:s1="Best School", s2="Best School" print(s1 == s2)
+9-answer.txt:s1="Best School", s2="Best School" print(s1 is s2)
