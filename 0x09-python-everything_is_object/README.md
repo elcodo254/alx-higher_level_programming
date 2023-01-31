@@ -10,3 +10,4 @@
 9-answer.txt:s1="Best School", s2="Best School" print(s1 is s2)
 l1=[1,2,3] l2=[1,2,3] print(l1==l2)
 10-answer.txt:l1=[1,2,3] l2=[1,2,3] print(l1==l2)
+11-answer.txt:l1=[1,2,3] l2=[1,2,3] print(l1 is l2)
