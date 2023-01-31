@@ -4,3 +4,4 @@
 3-answer.txt:a=89, b=89 point to same object?
 4-answer.txt:a=89, b=a point to same object?
 5-answer.txt:a=89, b=a+1 point to same object?
+6-answer.txt:s1="Best School", s2=s1 print(s1 == s2)
