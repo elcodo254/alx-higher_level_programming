@@ -1,0 +1,91 @@
+==========================
+How to use 0-add_integer.py
+===========================
+
+This module defines an integer addition function ``add_integer(a, b=98)``.
+
+Usage
+=====
+
+`` add_integer(...)``` returns the addition of its two arguments. For numbers, it is equivalent to using ``+`` operator.
+
+::
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+	>>> add_integer(2, 3)
+	5
+
+::
+
+	>>> add_integer(2, -3)
+	-1
+
+Function works with floats(are cast into integers)
+
+::
+
+	>>>add_integer(2.9, 4.1)
+	7
+
+::
+
+	>>>add_integer(-2.9, -4.1)
+	-7
+
+The second argument is optional - by default, it is 98.
+
+::
+
+	>>> add_integer(2)
+	100
+
+Non-numbers
+===========
+
+``add_integer()`` expects that both arguments are either integers or floats.
+If either argument is a non-integer and non-float, a TypeErro is raised:
+
+::
+
+	>>> add_integer("hello", 2)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+::
+
+	>>> add_integer(2, "hello")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+::
+
+	>>> add_integer(None)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+::
+	>>> add_integer(4.2, None)
+	Treaceback (most recent call last):
+	TypeError: b must be an integer
+
+If both arguments are neither integers or floats, TypeError message is printed.
+
+::
+
+	>>> add_integer("hello", "there")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Function will fail with NaN numbers.
+
+::
+
+	>>> add_integer(float('nan'))
+	Traceback (most recent call last):
+	ValueError: cannot convert float NaN to integer
+
+::
+
+	>>> add_integer(2, float('nan'))
+	Traceback (most recent call last):
+	ValueError: cannot convert float NaN to integer 
