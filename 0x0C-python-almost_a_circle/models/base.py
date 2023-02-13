@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define a base model class"""
 
+
 class Base:
     """Represents the base model for all classes in project
 
