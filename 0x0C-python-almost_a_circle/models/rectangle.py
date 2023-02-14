@@ -116,15 +116,15 @@ class Rectangle(Base):
                                           self.y)
                         else:
                             self.id = arg
-                elif a == 1:
-                    self.width = arg
-                elif a == 2:
-                    self.height = arg
-                elif a == 3:
-                    self.x == arg
-                elif a == 4:
-                    self.y == arg
-                a += 1
+                    elif a == 1:
+                        self.width = arg
+                    elif a == 2:
+                        self.height = arg
+                    elif a == 3:
+                        self.x == arg
+                    elif a == 4:
+                        self.y == arg
+                    a += 1
 
             elif kwargs and len(kwargs) != 0:
                 for k, v in kwargs.items():
@@ -138,9 +138,9 @@ class Rectangle(Base):
                         self.width = v
                     elif k == "height":
                         self.height = v
-                    elif k = "x":
+                    elif k == "x":
                         self.x = v
-                    elif k = "y":
+                    elif k == "y":
                         self.y = v
 
     def dictionary(self):
