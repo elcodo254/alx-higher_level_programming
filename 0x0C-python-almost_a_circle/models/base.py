@@ -70,14 +70,14 @@ class Base:
 
         Args:
             **dictionary (dict): Key/value pairs of attributes to initialize
-            """
-            if dictionary and dictionary != {}:
-                if cls.__name__ == "Retcangle":
-                    new = cls(1, 1)
-                else:
-                    new = cls(1)
-                new.update(**dictionary)
-                return new
+        """
+        if dictionary and dictionary != {}:
+            if cls.__name__ == "Retcangle":
+                new = cls(1, 1)
+            else:
+                new = cls(1)
+            new.update(**dictionary)
+            return new
 
     @classmethod
     def load_from_file(cls):
@@ -92,5 +92,5 @@ class Base:
             with open(filename, "r") as jsonfile:
                 list_dicts = Base.from_json_string(jsonfile.read())
                 return [cls.create(**d) for d in list_dicts]
-        exception IOError:
+        except IOError:
             return []
