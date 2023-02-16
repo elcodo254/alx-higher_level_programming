@@ -9,6 +9,8 @@ class Base:
         __nb__objects (int): The number of instatiated Bases
     """
 
+    __nb_objects = 0
+
     def __init__(self, id=None):
         """Initialize a new base
 
@@ -18,5 +20,5 @@ class Base:
         if id is not None:
             self.id = id
         else:
-            Base._nb_objects += 1
-            self.id = Base.__nb__objects
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
