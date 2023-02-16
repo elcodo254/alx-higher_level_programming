@@ -31,6 +31,10 @@ class TestRectangle_instatiation(unittest.TestCase):
         r2 = Rectangle(2, 4, 4)
         self.assertEqual(r1.id, r2.id - 1)
 
+    def test_fourArgs(self):
+        r1 = Rectangle(10, 2, 4, 4)
+        r2 = Rectangle(2, 4, 4 , 4)
+
     def test_fiveArgs(self):
         self.assertEqual(7, Rectangle(10, 2, 0, 0, 7).id)
 
