@@ -32,19 +32,19 @@ class TestRectangle_instatiation(unittest.TestCase):
         self.assertEqual(r1.id, r2.id - 1)
 
     def test_fourArgs(self):
-        r1 = Rectangle(10, 2, 4, 4)
-        r2 = Rectangle(2, 4, 4 , 4)
+        r1 = Rectangle(1, 2, 3, 4)
+        r2 = Rectangle(4, 3, 2 , 1)
         self.assertEqual(r1.id, r2.id - 1)
 
     def test_fiveArgs(self):
         self.assertEqual(7, Rectangle(10, 2, 0, 0, 7).id)
 
-    def test_multipleArgs(self):
+    def test_FiveArgs(self):
         with self.assertRaises(TypeError):
             Rectangle(1, 2, 3, 4, 5, 6, 7)
 
-class TestRectangle_orderOfInitialization(unittest.TestCase):
-    """Unittest for order of attribute initialization."""
+class TestRectangle_updateArgs(unittest.TestCase):
+    """Unittest for update of args."""
 
     def test_updateArgs(self):
         r = Rectangle(10, 10, 10, 10)
