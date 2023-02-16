@@ -42,4 +42,30 @@ class TestRectangle_instatiation(unittest.TestCase):
         with self.assertRaises(TypeError):
             Rectangle(1, 2, 3, 4, 5, 6, 7)
 
-    
+class TestRectangle_orderOfInitialization(unittest.TestCase):
+    """Unittest for order of attribute initialization."""
+
+    def test_updateArgs(self):
+        r = Rectangle(10, 10, 10, 10)
+        r.update(89)
+        self.assertEqual("[Rectangle] (89) 10/10 - 10/10", str(r))     
+
+    def test_updateTwoArgs(self):
+        r = Rectangle(10, 10, 10, 10)
+        r.update(89, 2)
+        self.assertEqual("[Rectangle] (89) 10/10 - 2/10", str(r))
+
+    def test_updateThreeArgs(self):
+        r = Rectangle(10, 10, 10, 10)
+        r.update(89, 2, 3)
+        self.assertEqual("[Rectangle] (89) 10/10 - 2/3", str(r))
+
+    def test_updateFourArgs(self):
+        r = Rectangle(10, 10, 10, 10)
+        r.update(89, 2, 3, 4)
+        self.assertEqual("[Rectangle] (89) 10/10 - 2/3", str(r))
+
+    def test_updateFiveArgs(self):
+        r = Rectangle(10, 10, 10, 10)
+        r.update(89, 2, 3, 4, 5)
+        self.assertEqual("[Rectangle] (89) 10/10 - 2/3", str(r))
