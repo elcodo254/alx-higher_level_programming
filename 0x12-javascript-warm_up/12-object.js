@@ -6,4 +6,3 @@ const myObject = {
 console.log(myObject);
 myObject.value = 89; // my code
 console.log(myObject);
-
