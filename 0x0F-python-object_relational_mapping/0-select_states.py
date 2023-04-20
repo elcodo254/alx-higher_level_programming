@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Lists all states from database hbtn_0e_0_usa
 Usage: script takes 3 arguments; username, password and db
