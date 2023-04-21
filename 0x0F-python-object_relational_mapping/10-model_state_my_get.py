@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 prints State object with name passed as argument from database hbtn_0e_6_usa
-Usage: script takes 4 arguments; username, password, db and state name 
+Usage: script takes 4 arguments; username, password, db and state name
 """
 import sys
 from sqlalchemy import create_engine
