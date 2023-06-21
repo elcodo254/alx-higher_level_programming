@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Defines Rectangle class"""
+""" Defines Rectangle class based on 7-recctangle.py
+"""
 
 
 class Rectangle:
